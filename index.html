@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goals Academy</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3f9eda8ca0.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.css" integrity="sha512-T3xwtELy3dqQUajk2sl4V6x/VnT+WbXgAKIu/Go7L6oDDWf4A5dJbG49vKn0am3dTNh/KHAbU2+4Ih2vVioxSg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js" integrity="sha512-V1mUBtsuFY9SNr+ptlCQAlPkhsH0RGLcazvOCFt415od2Bf9/YkdjXxZCdhrP/TVYsPeAWuHa+KYLbjNbeEnWg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="navbar" id="navbar">
+      <i class="fa-solid fa-bars menu-icon" id="menu-icon"></i>
+      <div class="navbar-logo">
+        <img src="assets/images/PNG-horison-hitam 1.png" alt="">
+      </div>
+      <div class="navbar-menu">
+        <div class="sidebar-logo">
+          <img src="assets/images/PNG-horison-hitam 1.png" alt="">
+          <i class="fa-solid fa-xmark sidebar-close-icon"></i>
+        </div>
+        <div class="navbar-link">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li>
+              <a href="#product">Produk</a>
+              <i class="fa-solid fa-caret-down drop-icon produk-arrow"></i>
+              <ul class="sub-menu produk-submenu">
+                <li><a href="#">Sub-1</a></li>
+                <li><a href="#">Sub-2</a></li>
+                <li><a href="#">Sub-3</a></li>
+              </ul>
+            </li>
+            <li><a href="#promo">Promo</a></li>
+            <li><a href="#lecturer">Profil Dosen</a></li>
+            <li>
+              <a href="#media">Media</a>
+              <i class="fa-solid fa-caret-down drop-icon media-arrow"></i>
+              <ul class="sub-menu media-submenu">
+                <li><a href="#">Sub-1</a></li>
+                <li><a href="#">Sub-2</a></li>
+                <li><a href="#">Sub-3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-btn">
+          <a href="/" class="btn btn-register">Register</a>
+          <a href="/" class="btn btn-login">Log In</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="notification-panel">
+    <div class="panel-container">
+      <p>Percepat kelulusanmu dengan belajar di Goals Academy <a href="">goalsacademy.com</a></p>
+      <i class="fa-solid fa-xmark panel-icon"></i>
+    </div>
+  </div>
+  <header>
+    <div class="hero-container">
+      <div class="hero-left-content">
+        <h1>Percepat Kelulusan bersama dosen Solutif dan Friendly</h1>
+        <p>Hybrid edutech yang membantu mahasiswa untuk fokus menyelesaikan tugas akhir dengan lebih cepat bersama dosen pembimbing komunikatif dan responsif.</p>
+        <button class="btn hero-btn">Gabung Sekarang</button>
+        <div class="hero-video-link">
+          <i class="fa-solid fa-circle-play">
+            <a href="">Watch video about Us</a>
+          </i>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="./assets/images/header/hero-img.png" alt="">
+      </div>
+    </div>
+  </header>
+
+  <!-- Promo -->
+  <div class="promo" id="promo">
+    <div class="swipper-container swiper">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./assets/images/promo/3.png" alt="">
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./assets/images/promo/1.png" alt="">
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="card-image">
+              <img src="./assets/images/promo/4.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <!-- Reason -->
+  <div class="reason-container" id="media">
+    <h1>Kenapa memilih Goals Academy</h1>
+    <div class="reason-card-wrapper">
+      <div class="reason-card">
+        <div class="text-content">
+          <h3>Memiliki Program Solusi <span class="orange">Cepat Lulus</span> dalam 3 Bulan</h3>
+          <p>Goals Academy memiliki mekanisme penyusunan skripsi yang efektif dan efisien dalam 3 bulan.</p>
+          <button class="btn reason-btn">Daftar Sekarang</button>
+        </div>
+        <div class="image-content image1">
+          <img src="./assets/images/reason/image1.png" alt="">
+        </div>
+      </div>
+      <div class="reason-card">
+        <div class="text-content">
+          <h3>Dibimbing oleh <span class="orange">Dosen Muda</span> yang Professional dan Friendly</h3>
+          <p>Pembimbing kalian berasal dari kampus terkemuka di Indonesia.</p>
+          <button class="btn reason-btn">Lihat Dosennya</button>
+        </div>
+        <div class="image-content image2">
+          <img src="./assets/images/reason/image2.png" alt="">
+        </div>
+      </div>
+      <div class="reason-card">
+        <div class="text-content">
+          <h3>Mahasiswa Bisa <span class="orange">Mentoring 24/7</span> Melalui Chatting</h3>
+          <p>Bimbingan skripsi jadi lebih asik dan mudah dengan waktu chat dengan dosen yang fleksibel 24/7.</p>
+          <button class="btn reason-btn">Selengkapnya</button>
+        </div>
+        <div class="image-content image3">
+          <img src="./assets/images/reason/image3.png" alt="">
+        </div>
+      </div>
+      <div class="reason-card">
+        <div class="text-content">
+          <h3>Penyusunan Skripsi <span class="orange">Jadi Lebih Mudah dan Cepat</span></h3>
+          <p>Mahasiswa dapat menyusun skripsi lebih cepat dan mudah dengan program webinar live.</p>
+          <button class="btn reason-btn">Lihat Testimoni</button>
+        </div>
+        <div class="image-content image4">
+          <img src="./assets/images/reason/image4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product -->
+  <div class="product-container" id="product">
+    <h1>Pilihan produk Goals Academy untuk solusi skripsimu</h1>
+    <div class="product-cards-wrapper">
+      <div class="product-card card-1">
+        <div class="product-image">
+          <img src="./assets/images/product/image-1.png" alt="">
+        </div>
+        <div class="card-content">
+          <h3>Dibimbing Privat</h3>
+          <p>Bimbingan skripsi eksklusif bagi mahasiswa dengan metode penyusunan skripsi lebih efektif dan menjadi prioritas kelulusan lebih cepat.</p>
+        </div>
+        <div class="bottom">
+          <p class="price"></p>
+          <button class="btn product-btn btn-1">Segera Hadir</button>
+        </div>
+      </div>
+      <div class="product-card card-2">
+        <div class="product-image">
+          <img src="./assets/images/product/image-2.png" alt="">
+        </div>
+        <div class="card-content">
+          <h3>Dibimbing Berkelompok</h3>
+          <p>Menyusun skripsi bersama-sama dengan teman bisa lebih asik dan mudah dengan dibimbing oleh dosen muda yang friendly dan solutif.</p>
+        </div>
+        <div class="bottom">
+          <p class="price">Mulai dari Rp299.000/bulan</p>
+          <button class="btn product-btn btn-2" id="join-now">Gabung Sekarang</button>
+        </div>
+      </div>
+      <div class="product-card card-3">
+        <div class="product-image">
+          <img src="./assets/images/product/image-3.png" alt="">
+        </div>
+        <div class="card-content">
+          <h3>Webinar Skripsi</h3>
+          <p>Pemateri adalah dosen dari universitas terkemuka yang akan menjelaskan penyusunan skripsi yang efektif dan efisien.</p>
+        </div>
+        <div class="bottom">
+          <p class="price">Mulai dari Rp30.000/sesi</p>
+        <button class="btn product-btn btn-3">Cek Jadwal</button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-container">
+    <div class="modal-content">
+      <div class="top-modal"> 
+        <div class="modal-image">
+        </div>
+        <div class="modal-text">
+          <h3>Dibimbing Berkelompok</h3>
+          <h4>Akses yang didapat</h4>
+          <ul>
+            <li><i class="fa-solid fa-check checklist"></i>Dosen solutif</li>
+            <li><i class="fa-solid fa-check checklist"></i>Link akses virtual class</li>
+            <li><i class="fa-solid fa-check checklist"></i>Group whatsapp bimbingan</li>
+            <li><i class="fa-solid fa-check checklist"></i>Direct massage to dosen 24/7</li>
+            <li><i class="fa-solid fa-check checklist"></i>Jaminan dosen friendly dan solutif</li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-xmark close-icon"></i>
+      </div>
+      <hr>
+      <div class="bottom-modal">
+        <h4>Mekanisme bimbingan</h4>
+        <p>Menyusun skripsi bersama-sama dengan teman bisa lebih asik dan mudah dengan dibimbing oleh dosen muda yang friendly dan solutif. Menyusun skripsi bersama-sama dengan teman bisa lebih asik dan mudah dengan dibimbing oleh dosen muda yang friendly dan solutif.</p>
+        <div class="modal-btn-wrapper">
+          <a href="" class="modal-btn btn-fax">F.A.Q</a>
+          <a href="https://wa.me/6281252368346" target="_blank" class="modal-btn btn-admin">Chat Admin</a>
+          <a href="https://lynk.id/goalsacademy" target="_blank" class="modal-btn btn-pay">Lanjut Pembayaran</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video -->
+  <div class="video-container">
+    <h1>1 hari Kamu menunda penyusunan skripsi sama aja Kamu menunda 1 hari kesuksesan!</h1>
+    <div class="video-content">
+      <a href="#videostory" class="btn btn-play" id="btn-play"><i class="fa-solid fa-play"></i></a>
+      <div class="mfp-hide" id="videostory">
+        <iframe src="https://www.youtube.com/embed/g85WsxE1gAU?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leacturer -->
+  <div class="lecturer-container" id="lecturer">
+    <h1>Profil Dosen Pembimbing di Goals Academy</h1>
+    <div class="lecturer-card-wrapper">
+      <div class="lecturer-card">
+        <div class="card-image">
+          <img src="./assets/images/lecturer/Rectangle 113.png" alt="">
+        </div>
+        <div class="card-text">
+          <p class="lecturer-name">dr.Ravly Chardi, MM</p>
+          <span>Fisika</span>
+          <p class="description">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+        </div>
+      </div>
+      <div class="lecturer-card">
+        <div class="card-image">
+          <img src="./assets/images/lecturer/Rectangle 113.png" alt="">
+        </div>
+        <div class="card-text">
+          <p class="lecturer-name">dr.Ravly Chardi, MM</p>
+          <span>Fisika</span>
+          <p class="description">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+        </div>
+      </div>
+      <div class="lecturer-card">
+        <div class="card-image">
+          <img src="./assets/images/lecturer/Rectangle 113.png" alt="">
+        </div>
+        <div class="card-text">
+          <p class="lecturer-name">dr.Ravly Chardi, MM</p>
+          <span>Fisika</span>
+          <p class="description">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+        </div>
+      </div>
+      <div class="lecturer-card">
+        <div class="card-image">
+          <img src="./assets/images/lecturer/Rectangle 113.png" alt="">
+        </div>
+        <div class="card-text">
+          <p class="lecturer-name">dr.Ravly Chardi, MM</p>
+          <span>Fisika</span>
+          <p class="description">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-container">
+    <h2>Frequenctly Asked Questions</h2>
+    <div class="faq-content">
+      <div class="search-wrapper">
+        <input type="text" placeholder="Feel free to ask me question">
+      </div>
+      <div class="qa-box-wrapper">
+        <div class="question-box">
+          <p>Pertanyaan 1</p>
+          <i class="open-answer-icon"></i>
+        </div>
+        <div class="answer-box">
+          <p>Answer 1</p>
+        </div>
+        <div class="question-box">
+          <p>Pertanyaan 2</i></p>
+          <i class="open-answer-icon"></i>
+          <!-- <i class="fa-solid fa-angle-down "></i> -->
+        </div>
+        <div class="answer-box">
+          <p>Answer 2</p>
+        </div>
+        <div class="question-box">
+          <p>Pertanyaan 3</p>
+          <i class="open-answer-icon"></i>
+        </div>
+        <div class="answer-box">
+          <p>Answer 3</p>
+        </div>
+        <div class="question-box">
+          <p>Pertanyaan 4</p>
+          <i class="open-answer-icon"></i>
+        </div>
+        <div class="answer-box">
+          <p>Answer 4</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimoni -->
+  <div class="testimoni-container" id="testimoni">
+    <div class="testimoni-header">
+      <div class="title">
+        <img src="./assets/icons/testimoni-icon.svg" alt="" class="title-icon">
+        <h1>What our graduates have to say</h1>
+      </div>
+      <div class="image-wrapper">
+        <img src="./assets/images/testimoni/unsplash_3fiztRMJPr8.png" alt="">
+        <div class="image-stack">
+          <img src="./assets/images/testimoni/unsplash_Hkavt2MAOEc.png" alt="">
+          <img src="./assets/images/testimoni/unsplash_vdXMSiX-n6M.png" alt="">
+        </div>
+        <img src="./assets/images/testimoni/unsplash_0Zx1bDv5BNY.png" alt="">
+      </div>
+    </div>
+    <hr>
+    <div class="testimoni-content">
+      <div class="testimoni-cards">
+        <div class="swiper-container swiper" id="swiper-top">
+          <div class="testimoni-slide" id="slide-top">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimoni-cards">
+        <div class="swiper-container swiper" id="swiper-bottom">
+          <div class="testimoni-slide" id="slide-bottom">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="test-card swiper-slide">
+                <div class="card-header">
+                  <p class="bold">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"</p>
+                </div>
+                <hr>
+                <div class="card-content">
+                  <div class="user-profile">
+                    <div class="user-img">
+                      <img src="./assets/images/testimoni/maudy.png" alt="" class="card-img">
+                    </div>
+                    <div class="user-identity">
+                      <p class="bold">Maudy Ayunda</p>
+                      <p class="major">Hukum</p>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left-content">
+        <img src="./assets/images/footer/footer-logo.png" class="footer-logo" alt="">
+        <p>Jl. Sidomakmur No.27, Jetak Ngasri, Mulyoagung, Kec. Dau, Kabupaten Malang, Jawa Timur 65151</p>
+        <p>Download Aplikasi Goals Academy</p>
+        <img src="./assets/images/footer/google-play.png" alt="">
+        <img src="./assets/images/footer/app-store.png" alt="">
+        <div class="platform-download">
+        </div>
+      </div>
+      <div class="footer-right-content">
+        <div class="footer-right-top-content">
+          <div class="product">
+            <p class="title">Produk</p>
+            <ul>
+              <li><a href="/">Dibimbing privat</a></li>
+              <li><a href="/">Dibimbing berkelompok</a></li>
+            </ul>
+          </div>
+          <div class="product">
+            <p class="title">Produk Lainnya</p>
+            <ul>
+              <li><a href="/">Modul</a></li>
+              <li><a href="/">Video Bimbingan</a></li>
+              <li><a href="/">Buku</a></li>
+              <li><a href="/">Tanya Jawab</a></li>
+            </ul>
+          </div>
+          <div class="product">
+            <p class="title">Help</p>
+            <ul>
+              <li><a href="/">How does it work?</a></li>
+              <li><a href="/">Where to ask question?</a></li>
+              <li><a href="/">How to pay?</a></li>
+              <li><a href="/">What is neede for this?</a></li>
+            </ul>
+          </div>
+          <div class="product">
+            <p class="title">Kebijakan Privasi</p>
+            <ul>
+              <li><a href="/">Term & Condition</a></li>
+              <li><a href="/">Tentang Kami</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-right-bottom-content">
+          <div class="contact">
+            <p class="title">Hubungi Kami</p>
+            <ul>
+              <li>
+                <img src="./assets/images/footer/gmail.png" alt="">
+                academy@goals.com
+              </li>
+              <li>
+                <img src="./assets/images/footer/whatsapp.png" alt="">
+                085637564245
+              </li>
+            </ul>
+          </div>
+          <div class="contact">
+            <p class="title">Ikuti Kami</p>
+            <div class="social-media">
+              <a href=""><img src="./assets/images/footer/instagram.png" alt=""></a>
+              <a href=""><img src="./assets/images/footer/tiktok.png" alt=""></a>
+              <a href=""><img src="./assets/images/footer/youtube.png" alt=""></a>
+              <a href=""><img src="./assets/images/footer/linkedin.png" alt=""></a>
+              <a href=""><img src="./assets/images/footer/facebook.png" alt=""></a>
+              <a href=""><img src="./assets/images/footer/twitter.png" alt=""></a>
+            </div>
+            </ul>
+          </div>
+        </div>
+        <p class="title">&copy; 2022 Goals Academy. All Rights Reserved PT. Mahasa Group   </p>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="main.js"></script>
+</html>
